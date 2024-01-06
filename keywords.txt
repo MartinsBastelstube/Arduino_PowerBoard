@@ -1,0 +1,74 @@
+#######################################
+# Syntax Coloring Map For PowerBoard library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PowerBoard	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+begin	KEYWORD2
+
+setMotorDirection	KEYWORD2
+getMotorDirection	KEYWORD2
+setMotorSpeed	KEYWORD2
+getMotorSpeed	KEYWORD2
+stopMotor	KEYWORD2
+
+setDigiBit	KEYWORD2
+getDigiBit	KEYWORD2
+readDigiBit	KEYWORD2
+writeDigiPort	KEYWORD2
+readDigiPort	KEYWORD2
+
+getBattVolt	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OUT_MOT0	LITERAL1
+OUT_MOT1	LITERAL1
+OUT_MOT2	LITERAL1
+OUT_MOT3	LITERAL1
+OUT_SHOT	LITERAL1
+OUT_AUX	LITERAL1
+OUT_PORTS	LITERAL1
+OUT_ALL_M	LITERAL1
+OUT_ALL_S	LITERAL1
+OUT_ALL_X	LITERAL1
+
+PIN_MOT0	LITERAL1
+PIN_MOT1	LITERAL1
+PIN_MOT2	LITERAL1
+PIN_MOT3	LITERAL1
+PIN_SHOT	LITERAL1
+PIN_AUX	LITERAL1
+PIN_LED	LITERAL1
+PIN_BATT_VOLT	LITERAL1
+
+MOTOR_IDLE	LITERAL1
+MOTOR_STOP	LITERAL1
+MOTOR_WEAK	LITERAL1
+MOTOR_SLOW	LITERAL1
+MOTOR_QUART	LITERAL1
+MOTOR_HALF	LITERAL1
+MOTOR_FULL	LITERAL1
+
+MOTOR_OFF	LITERAL1
+MOTOR_FWD	LITERAL1
+MOTOR_REV	LITERAL1
+MOTOR_DMASK	LITERAL1
+
+I2C_ADDR_MOTOR	LITERAL1
+I2C_ADDR_DIGITAL	LITERAL1
+
+BITVAL_LOW	LITERAL1
+BITVAL_HIGH	LITERAL1
+BITVAL_ERROR	LITERAL1
